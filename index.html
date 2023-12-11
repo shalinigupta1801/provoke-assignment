@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Player</title>
+</head>
+<body>
+    <div>
+        <label for="videoId">Enter YouTube Video ID:</label>
+        <input type="text" id="videoId" placeholder="Unlisted Video ID">
+        <button onclick="loadVideo()">Load Video</button>
+    </div>
+
+    <div id="player"></div>
+
+    <!-- Replace 'YOUR_API_KEY' with your actual YouTube Data API key -->
+    <script src="https://www.youtube.com/iframe_api?api_key=AIzaSyDM0eMkezmQR53Ww1URTikRoTRVe9jm_rc"></script>
+    <script src="app.js"></script>
+</body>
+</html>
